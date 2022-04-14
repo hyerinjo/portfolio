@@ -385,7 +385,7 @@ footer ul li {
 }
 footer ul li a {color: #fff;}
 footer ul li:first-child {
-    background-color: darkblue;
+    background-color: rgb(213, 17, 231);
     font-weight: bold;
 }
 footer ul li:first-child a {
