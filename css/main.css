@@ -83,6 +83,7 @@ header div a {
 /* .best_v 시작부분 */
 .best_v {
     padding: 100px 0;
+    /* background: url('../images/파일명,확장자명') ; */
 }
 .best_v .title {
     text-align: center;
