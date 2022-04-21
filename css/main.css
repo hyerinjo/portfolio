@@ -40,8 +40,7 @@ body{
 li {list-style: none;}
 html, body {
     color: #fff;
-    min-width: 1280px;
-
+    /* min-width: 1280px; */
 }
 
 /* header시작부분 */
@@ -194,6 +193,8 @@ header div a span {
 }
 .best_v .cont .info {
     width: 100%;/* 14px이하는 no */
+    color: #fff;
+    text-align: center;
 }
 .best_v .cont .info h4 {
     font-size: 30px;
@@ -213,7 +214,7 @@ header div a span {
     width: 100px;
 }
 .best_v .cont .info ul {
-    display: flex;
+
     margin: 20px;
 }
 .best_v .cont .info ul li a {
@@ -394,7 +395,7 @@ header div a span {
 
 /* .about */
 .about {
-    padding: 100px;
+    padding: 100px 0;
 }
 .about .cont {
     width: 1280px;
@@ -467,3 +468,66 @@ footer p {
     font-size: 14px;
     color: bisque;
 }
+
+/* 반응형 제작
+해상도 가로 960px 이하일 때 적용되는 스타일*/
+
+@media screen and (max-width: 1280px) {
+    /* 브라우저 너비 1280px이하일 때 스타일 */
+    header div {width: 100%;}
+    .main_visual .title {width: 100%;}
+    .best_v .cont {width: 100%;}
+    .g_ver05 .cont {width: 100%;}
+    .g_ver05 .title {width: 100%;}
+    .motion .motion_cont .list_cont {width: 100%;}
+    .about .cont {width: 100%;}
+} /* 해상도 1280px이하 */
+
+@media screen and (max-width: 960px) {
+
+    .best_v .cont {flex-wrap: wrap;}
+    .best_v .cont .youtube {width: 100%;}
+    .best_v .cont .info {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .best_v .cont .info p:nth-of-type(2) {
+        margin: 10px 0 20px;
+    }
+    .motion .list {
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    .motion .motion_cont .list_cont.on {
+        flex-wrap: wrap;
+    }
+    .motion .motion_cont .list_cont .items {
+        width: 95%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .g_ver05 .cont {
+        flex-wrap: wrap;
+    }
+    .g_ver05 .cont .items {
+        width: 95%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .about .cont {
+        flex-wrap: wrap;
+    }
+    .about .cont figure {
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+    }
+    .about .cont .info {
+        width: 95%;
+        margin: 0 auto;
+    }
+    body {
+        overflow-x: hidden;
+    }
+}/* 해상도 960px 이하 */
