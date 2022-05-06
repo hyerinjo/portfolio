@@ -46,19 +46,19 @@ html, body {
 }
 /* header시작부분 */
 header {
-    padding: 20px 40px;
-    /* height: 80px; */
+    padding: 21px 45px;
+    height: 486px;
     /* line-height: 80px; */
 }
 header div {
     /* width: 1280px; */
-    width: calc(100% - 100px);
+    width: calc(100% - 24px);
     margin: 0 auto;
     display: flex;
     justify-content: flex-end;
 }
 header div img {
-    width: 150px;
+    width: 303px;
 }
 header div h1 {
     font-family: 'Cardo';
@@ -72,7 +72,7 @@ header div a {
     font-size: 35px;
     font-family: 'Cardo';
     line-height: 1;
-    margin: 90px 19px 0;
+    margin: 142px 25px 0 0;
 }
 header a i {
     color: #fff;
@@ -85,7 +85,7 @@ header div a span {
 .main_visual {
     width: 100%;
     /* height: 100vh; 수치조절로 쫍게 사이즈 만들 수 있음 */
-    height: calc(100vh - 80px);
+    height: calc(100vh - 250px);
     /* 높이 : 브라우저전체높이 -헤더값 */
     position: relative;
 }
@@ -106,7 +106,7 @@ header div a span {
     /* background-color: darkgoldenrod; */
     background-color: #191919;
     margin: 0 auto;
-    height: 60%;
+    height: 0%;
     position: absolute;
     left: 50%;
     top: 0;
@@ -132,7 +132,7 @@ header div a span {
 .main_visual .title p {
     width: 100%;
     font-size: 70px;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
     text-align: center;
     font-family: 'Saling Cinta';
     position: relative;    
@@ -155,6 +155,7 @@ header div a span {
     padding: 100px 0;
     /* background: url('../images/파일명,확장자명') ; */
 }
+
 .best_v .title {
     text-align: center;
     margin-bottom: 40px;
@@ -252,7 +253,7 @@ header div a span {
     잡힐 수 있도록 설정
     */
     font-size: 25px;
-    display: block;
+    /* display: block; */
     padding: 0 25px;
     margin-right: 50px;
     border-radius: 40px;
@@ -273,7 +274,7 @@ header div a span {
 }
 
 .motion {
-    padding: 630px 0;
+    padding: 440px 0;
 }
 .motion .title {
     text-align: center;
@@ -290,7 +291,7 @@ header div a span {
 .motion .list {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
     border-radius: 20px;
 }
 .motion .list li {
@@ -301,7 +302,7 @@ header div a span {
     line-height: 45px;
     border: 1px solid #fff;
     padding: 0 30px;
-    margin: 0 5px;
+    margin: 0 20px;
     box-sizing: border-box;
     border-radius: 50px;
     background-color: #fff;
@@ -369,7 +370,7 @@ header div a span {
 /* .g_ver05 */
 .g_ver05 {
     background-color: #191919;
-    padding: 100px 0;
+    padding: 250px 0;
 }
 .g_ver05 .title {
     text-align: center;
@@ -607,4 +608,6 @@ footer p {
     .about .cont .info div p {font-size: 16px;}
     .about .cont .info div dl dt {font-size: 16px;}
     .about .cont .info div dl dd {font-size: 16px;}
+    .motion .list li {margin: 7px;}
+    .best_v .cont .info ul {margin: -40px 60%;}
 }/* 해상도 640px 이하 */

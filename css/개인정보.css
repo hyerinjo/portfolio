@@ -1,0 +1,27 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Square+Peg&display=swap');
+
+* {margin: 0; padding: 0;}
+body{
+    background-color: #191919;
+} 
+li {list-style: none;}
+html, body {
+    color: #fff;
+    /* min-width: 1280px; */
+}
+header {
+    padding: 21px 45px;
+    height: 486px;
+    /* line-height: 80px; */
+}
+header div {
+    /* width: 1280px; */
+    width: calc(100% - 24px);
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+header div h3 {
+    font-family:'Cardo';
+}
