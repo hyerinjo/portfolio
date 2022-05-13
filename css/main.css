@@ -277,6 +277,7 @@ header div a span {
     color: #000;
     font-size: 23px;
     margin-right: 12px;
+    display: block;
 }
 
 .motion {
@@ -449,7 +450,9 @@ header div a span {
     margin-bottom: 20px;
     color: #000;
 }
-body a img {}
+div a {
+    
+}
 /* .about */
 .about {
     padding: 100px 0;
@@ -481,6 +484,7 @@ body a img {}
     margin: 20px 0;/* 위아래20px 좌우값은0 */
 }
 .about .cont .info div h4 {
+    font-family: 'Cardo';
     font-size: 30px;
     margin-bottom: 20px;
 }
