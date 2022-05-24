@@ -450,9 +450,7 @@ header div a span {
     margin-bottom: 20px;
     color: #000;
 }
-div a {
-    
-}
+
 /* .about */
 .about {
     padding: 100px 0;
@@ -500,7 +498,10 @@ div a {
 .about .cont .info div dl dd {
     font-size: 20px;
 }
-
+div.contact_us {
+    display: flex;
+    justify-content: flex-end;
+}
 footer {
     background-color: #333;
     text-align: center;

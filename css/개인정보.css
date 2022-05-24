@@ -25,3 +25,26 @@ header div {
 header div h3 {
     font-family:'Cardo';
 }
+div.contact_us{
+    display: flex;
+    justify-content: flex-end;
+}
+.about .cont .info > div {
+    width: 45%;
+}
+.about .cont .info .pro {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.about .cont .info .pro > div {
+    width: 49%;
+}
+.about .cont .info .pro > div p a {
+    color: #fff;
+}
+.about .cont .info {
+    display: block;
+}
