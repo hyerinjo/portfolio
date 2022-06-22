@@ -489,11 +489,13 @@ header div a span {
 .about .cont .info div p {
     font-size: 20px;
     margin-bottom: 5px;
+    font-family:'Cardo';
 }
 .about .cont .info div dl dt {
     margin-bottom: 5px;
     font-size: 20px;
     font-weight: bold;
+    font-family:'Cardo';
 }
 .about .cont .info div dl dd {
     font-size: 20px;

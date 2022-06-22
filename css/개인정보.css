@@ -42,7 +42,7 @@ div.contact_us{
 .about .cont .info .pro > div {
     width: 49%;
 }
-.about .cont .info .pro > div p a {
+.about .cont .info .pro > div > p > a {
     color: #fff;
 }
 .about .cont .info {
